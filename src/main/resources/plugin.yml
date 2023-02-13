@@ -1,0 +1,3 @@
+name: CN2B2T
+version: '${project.version}'
+main: cloud.xzai.cn2b2t
