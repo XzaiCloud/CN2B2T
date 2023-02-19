@@ -1,3 +1,9 @@
 name: CN2B2T
 version: '${project.version}'
 main: cloud.xzai.cn2b2t
+commands:
+   hello:
+      description: This is a demo command.
+      usage: /<command>
+      permission: <plugin name>.hello
+      permission-message: You don't have <permission>
