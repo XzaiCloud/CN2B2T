@@ -36,7 +36,7 @@ public final class cn2b2t extends JavaPlugin {
             playerName = player.getName();
             info = "你好!管理员<" + playerName + ">";
             player.sendMessage(info);
-            player.chat("我输入了命令/test,这插件太好用了吧！");
+            player.chat("我输入了命令/test,这CN2B2T插件太好用了吧！");
             consoleLog(ChatColor.BLUE + "管理员<" + playerName + ">输入了一条命令:" + commandName);
             consoleLog(ChatColor.BLUE + "服务器发给管理员<" + playerName + ">了一条消息:" + info);
         } else if (commandName.equalsIgnoreCase("info")) {
