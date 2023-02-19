@@ -1,9 +1,14 @@
 name: CN2B2T
+author: Xzai
 version: '${project.version}'
 main: cloud.xzai.cn2b2t
+description: CN2B2T核心插件
 commands:
-   hello:
-      description: This is a demo command.
+   test:
+      description: 测试指令
       usage: /<command>
-      permission: <plugin name>.hello
-      permission-message: You don't have <permission>
+      permission: <plugin name>.test
+      permission-message: 这是个测试命令,用于插件的开发,你不必执行它
+   info:
+      description: 查看插件信息的指令
+      usage: /<command>
